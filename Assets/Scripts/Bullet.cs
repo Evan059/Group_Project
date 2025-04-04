@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    // Bullet speed
+    private float bulletSpeed = 8f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +16,9 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(0, 1, 0) * Time.deltaTime * 8f);
+        // Move bullet up
+        transform.Translate(new Vector3(0, 1, 0) * Time.deltaTime * bulletSpeed);
+        // Delete bullet when it reaches the top of the screen
         if (transform.position.y > 6.5f)
         {
             Destroy(this.gameObject);
