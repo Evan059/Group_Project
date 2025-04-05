@@ -3,7 +3,13 @@ guid: cceb1684fa225e0479efe1b1b0c377db
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyBasicPrefab: {fileID: 2543188414796752791, guid: 3be26e9844225f241a767a0a1688d0fc, type: 3}
+  - enemyFlowPrefab: {fileID: 3148846513823856896, guid: 6932534eeb990a347b59aecdca12d12e, type: 3}
+  - enemyAttackPrefab: {fileID: 3839305359175758366, guid: b93298218da0a3c4caa21f98181a5e64, type: 3}
+  - cloudPrefab: {fileID: 1194196123558781635, guid: 6934750e09627814ba2ec68a90e4c5fa, type: 3}
+  - PlayerPrefab: {fileID: 916436553104873547, guid: a47373904145c7f4db8878a1472933f5, type: 3}
+  - livesText: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
